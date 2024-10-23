@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0d195;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5e6c9;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.logo h1 {
+    color: #2e7d32;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.icon img {
+    width: 40px;
+    height: auto;
+}
+
+main {
+    padding: 10px;
+    text-align: center;
+}
+
+.greeting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.greeting img {
+    width: 30px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.greeting p {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 250px;
+}
+
+.buttons button {
+    display: block;
+    width: 90%;
+    margin: 8px auto;
+    padding: 12px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.input-area {
+    margin: 15px 0;
+}
+
+.input-area input {
+    width: 90%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+}
+
+.learn-more {
+    display: block;
+    margin-top: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+@media (min-width: 600px) {
+    .greeting p {
+        max-width: none;
+    }
+}
